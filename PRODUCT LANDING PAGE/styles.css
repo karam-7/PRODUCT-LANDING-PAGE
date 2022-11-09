@@ -1,0 +1,284 @@
+
+#cont{
+    background-image: url("https://wallpaperaccess.com/full/2270823.png");
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+#header-img{
+    width: 80px;
+    height: 30px;
+}
+
+#header{
+    background-color: darksalmon;
+    border: 2px solid seagreen;
+    border-radius: 5px;
+    margin: auto;
+    padding: 0px;
+}
+
+.nav-link{
+    margin: 10px 70px;  
+}
+
+.nav-item a:hover{
+    color: royalblue;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.row{
+    margin-top: 20px;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.hero{
+    margin-top: 90px;
+    
+}
+.caption{
+    background-color: lemonchiffon;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.img-hero{    
+    width: 400px;
+    height: 370px;
+} 
+
+.hero-btn{
+    margin-top: 30px;
+    display: flex;
+}
+
+.bg{
+    border: 2px solid chocolate;
+    margin: 20px;
+    padding: 10px;
+    background-color: lightgreen;
+    color: darkmagenta;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.text{
+    margin-top: 10px;
+}
+
+.container{
+    margin-top: 20px;
+    padding: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
+
+.headline{
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+
+#video{
+    width: 90%;
+    margin: 30px 50px;
+    
+}
+
+.core-single{
+    background-color: linen;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.core-single p{
+   margin-top: 20px;
+}
+
+#mid{
+    background-color: lightcyan;
+    border-radius: 10px;
+}
+
+
+.product-image{
+    background-color: lightgreen;
+    margin-top: 30px; 
+    padding: 15px;
+    border-radius: 10px;
+    display: flexbox;
+}
+
+.product-image a{
+    text-decoration: none;   
+}
+
+.product-image a:hover{
+    color: darkorange;
+}
+
+#touch{
+    background-color: lightyellow;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+#email{
+    border-radius: 10px;
+}
+
+#submit{
+    
+    background-color: coral;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 35%;
+    
+}
+
+#submit:hover{
+    background-color: darkorange;
+}
+
+
+#foot{
+    background-color: lightgoldenrodyellow;
+    box-sizing: 10px;
+}
+
+#foot ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px 50px;
+}
+
+
+#foot li{
+    display: flex;
+}
+
+#foot li a{
+    text-decoration: none;
+    color: black;
+}
+
+#foot li a:hover{
+    color: darkorange;
+}
+
+#foot p, h4{
+    padding: 20px;
+}
+
+#foot b{
+    color: rgb(255, 81, 0);
+}
+
+
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .logo > img {
+      margin: 0 auto;
+    }
+}
+
+@media (max-width: 650px) {
+    nav {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 50px;
+    }
+    nav li {
+      padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+}
+
+@media (max-width: 650px) {
+    #hero {
+      margin-top: 120px;}
+
+}
+
+@media (max-width: 550px) {
+    #features .icon {
+      display: none;
+    }
+}
+
+@media (max-width: 550px) {
+    #features .desc {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+    }
+
+    .img-hero{
+        height: 200px;
+        width: 300px;
+    }
+}
+  
+@media (max-width: 650px) {
+    #features {
+      margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+    .img-hero{
+        height: 100px;
+        width: 150px;
+    }
+    #video{
+        
+        width: 70%;
+        height: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    #pricing {
+      flex-direction: column;
+    }
+    .product {
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+
+    .hero-btn {
+        margin-left: 0;
+    }
+
+    .caption{
+        margin-top: 5px;
+    }
+}
+
